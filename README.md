@@ -1,4 +1,4 @@
-# Évalutation du cours "Géomatique et cartographie avec R" <img src="img/logo.png" align="right" width="120"/>
+# Évalutation du cours "Géomatique et cartographie avec R" <img src="figs/logo.png" align="right" width="120"/>
 
 ## Analyse des prix des locations Airbnb dans les 12e et 13e arrondissements parisiens 
 
@@ -9,12 +9,12 @@
 
 Vous devez tout d’abord télécharger le projet **exo_carto_r** sur votre
 machine puis le dézipper.  
-![](img/download.png)
+![](figs/download.png)
 
 Vous devez ensuite renommer le fichier **NOM_Prenom.R** avec vos propres
 noms et prénoms.  
 C’est ce fichier et uniquement ce fichier</u> que vous devrez nous envoyer
-avant le **21 février 2024**.  
+avant le **31 janvier 2025**.  
 
 Assurez vous bien que le script fonctionne avant de nous envoyer le
 fichier. Pour cela vous pouvez relancer votre session R (ctrl+shift+F10) puis
@@ -73,7 +73,7 @@ Vous devrez justifier la méthode de discrétisation que vous utilisez.
 ### Prix de la nuitée dans le voisinage du MK2 Bibliothèque (4 points)
 
 Quel est le prix médian par personne par nuitée dans une zone de 600 mètres 
-autour du MK2 Bibliothèque (coordonnées WGS84 : Y=48.8326, X=2.3752)? 
+autour du MK2 Bibliothèque (**coordonnées WGS84 : Y=48.8326, X=2.3752**)? 
 
 ### Utilisation d’un maillage régulier (4 points)
 
