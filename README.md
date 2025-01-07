@@ -7,7 +7,7 @@
 
 ### Présentation et préparation de l’espace de travail (4 points)
 
-Vous devez tout d’abord télécharger le projet **exo_carto_r** sur votre
+Vous devez tout d’abord télécharger le projet **exam_r** sur votre
 machine puis le dézipper.  
 ![](figs/download.png)
 
@@ -30,7 +30,7 @@ l'othographe et n'oubliez pas les éléments d'habillage nécessaires.
 ### Importer les couches d’information et les cartographier (4 points)
 
 Pour ce devoir, vous utiliserez les données du fichier **bnb.gpkg**
-contenu dans le dossier **data** du projet **exam_R**.  
+contenu dans le dossier **data** du projet **exam_r**.  
 Ce fichier geopackage contient 5 couches d’information :
 
 -   **arrdts**, les limites communales des 12e et 13e 
