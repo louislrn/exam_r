@@ -9,7 +9,7 @@
 
 
 ################################################################################
-# Carte des prix de l’immobilier (4 points)
+# Carte des prix par personne (accommodates) (4 points)
 ################################################################################ 
 
 
@@ -24,7 +24,7 @@
 
 
 ################################################################################ 
-# Prix de l’immobilier dans le voisinnage de la Mairie de Montreuil (4 points)
+# Prix médian par personne dans le voisinage du MK2 Bibliothèque (4 points)
 ################################################################################ 
 
 
@@ -32,8 +32,8 @@
 
 
 
-cat(paste0("Le prix de l'immobilier dans un voisinnage de 600 mètres ",
-           "autour de la mairie de Montreuil est de ", 
+cat(paste0("Le prix médian par personne dans un voisinage de 600
+           mètres autour du MK2 Bibliothèque est de ", 
            round(value, 0), 
            " euros par m²"))
 
@@ -51,13 +51,13 @@ cat(paste0("Le prix de l'immobilier dans un voisinnage de 600 mètres ",
 
 # Ajouter un identifiant unique
 
-# Faire une jointure spatiale entre les transactions et la grille
+# Faire une jointure spatiale entre les locations et la grille
 
-# Compter le nombre de transaction dans chaque carreau
+# Compter le nombre de locations dans chaque carreau
 
-# Calculez le prix median par carreau
+# Calculez le prix médian par carreau
 
-# Selectionner les carreaux ayant plus de 5 transactions
+# Sélectionner les carreaux ayant plus de 5 transactions
 
 # Justification de la discrétisation (statistiques, boxplot, histogramme, 
 # beeswarm...)
