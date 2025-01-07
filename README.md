@@ -1,4 +1,4 @@
-# Évalutation du cours "Géomatique et cartographie avec R" <img src="figs/logo.png" align="right" width="120"/>
+# Évaluation du cours "Géomatique et cartographie avec R" <img src="figs/logo.png" align="right" width="120"/>
 
 ## Analyse des prix des locations Airbnb dans les 12e et 13e arrondissements parisiens 
 
@@ -11,6 +11,7 @@ Vous devez tout d’abord télécharger le projet **exo_carto_r** sur votre
 machine puis le dézipper.  
 ![](figs/download.png)
 
+
 Vous devez ensuite renommer le fichier **NOM_Prenom.R** avec vos propres
 noms et prénoms.  
 C’est ce fichier et uniquement ce fichier</u> que vous devrez nous envoyer
@@ -21,15 +22,15 @@ fichier. Pour cela vous pouvez relancer votre session R (ctrl+shift+F10) puis
 relancer le script. Vous pouvez aussi faire jouer votre script par l'un ou l'une de vos camarades.
 
 Vous devez apporter un soin particulier à la présentation du code. Il
-doit être lisible aéré et commenté.
+doit être lisible, aéré, et commenté.
 
 Vous devrez également soigner la présentation des cartes. Faites attention à 
 l'othographe et n'oubliez pas les éléments d'habillage nécessaires. 
 
 ### Importer les couches d’information et les cartographier (4 points)
 
-Pour ce devoir vous utiliserez les données du fichier **bnb.gpkg**
-contenu dans le dossier **data** du projet **exo_carto_r**.  
+Pour ce devoir, vous utiliserez les données du fichier **bnb.gpkg**
+contenu dans le dossier **data** du projet **exam_R**.  
 Ce fichier geopackage contient 5 couches d’information :
 
 -   **arrdts**, les limites communales des 12e et 13e 
@@ -44,6 +45,8 @@ Ce fichier geopackage contient 5 couches d’information :
     sur le site www;airbnb.fr en septembre 2024 dans les 12e et 13e
     arrondissements parisiens (InsideAirbnb, 2024)
 
+Ces données ont été téléchargées et processées en amont sur le fichier *Preparation_des_donnees.md*, à titre indicatif.
+
 Vous produirez une carte de la région étudiée en utilisant toutes les
 couches d’information disponibles.  
 Vous devez exporter la carte dans une figure en PNG ayant une largeur de 800
@@ -55,13 +58,13 @@ Sur cette carte vous devez faire figurer les limites communales des
 arrondissements donnés, les espaces verts, le réseau viaire, le
 réseau ferré et les positions des locations disponibles sur le site en
 septembre 2024. Vous devrez ajouter à cette carte un habillage complet (flèche
-d’orientation, echelle, titre, sources…).
+d’orientation, échelle, titre, sources…).
 
 ![Exemple de carte présentant l'ensemble des couches](figs/fig1.png)
 
 ### Carte des prix des locations (4 points)
 
-Créer une carte ou chaque location apparait sous la forme d’un point
+Créez une carte ou chaque location apparait sous la forme d’un point
 coloré en fonction de son prix.  
 Exportez cette carte en PNG avec une largeur de 750 pixels.   
 Attention nous ne demandons pas la carte elle-même, uniquement

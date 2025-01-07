@@ -11,6 +11,8 @@ Extraction des locations Airbnb dans la ville de Paris
 
 Source : [InsideAirbnb, Paris, Septembre 2024](https://insideairbnb.com/get-the-data/)
 
+**Attention, les données brutes ne sont pas disponibles dans le dossier data du projet car trop lourdes (> 100MB). Elles restent disponible via l'URL ci-dessus.**
+
 
 ```r
 library(sf)
