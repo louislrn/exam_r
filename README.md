@@ -1,2 +1,91 @@
-# exam_r
-Examen du cours “Cartographie avec R” du Master 2 Géomatique, géodécisionnel, géomarketing et multimédia (G2M) de l’Université Paris 8 Vincennes - Saint-Denis
+# Évalutation du cours "Géomatique et cartographie avec R" <img src="img/logo.png" align="right" width="120"/>
+
+## Analyse des prix des locations Airbnb dans les 12e et 13e arrondissements parisiens 
+
+*Louis Laurian & Elina Marveaux*
+
+
+### Présentation et préparation de l’espace de travail (4 points)
+
+Vous devez tout d’abord télécharger le projet **exo_carto_r** sur votre
+machine puis le dézipper.  
+![](img/download.png)
+
+Vous devez ensuite renommer le fichier **NOM_Prenom.R** avec vos propres
+noms et prénoms.  
+C’est ce fichier et uniquement ce fichier</u> que vous devrez nous envoyer
+avant le **21 février 2024**.  
+
+Assurez vous bien que le script fonctionne avant de nous envoyer le
+fichier. Pour cela vous pouvez relancer votre session R (ctrl+shift+F10) puis
+relancer le script. Vous pouvez aussi faire jouer votre script par l'un ou l'une de vos camarades.
+
+Vous devez apporter un soin particulier à la présentation du code. Il
+doit être lisible aéré et commenté.
+
+Vous devrez également soigner la présentation des cartes. Faites attention à 
+l'othographe et n'oubliez pas les éléments d'habillage nécessaires. 
+
+### Importer les couches d’information et les cartographier (4 points)
+
+Pour ce devoir vous utiliserez les données du fichier **bnb.gpkg**
+contenu dans le dossier **data** du projet **exo_carto_r**.  
+Ce fichier geopackage contient 5 couches d’information :
+
+-   **arrdts**, les limites communales des 12e et 13e 
+    arrondissements parisiens (BD CARTO®, IGN, 2021),
+-   **parc**, les espaces verts de la région étudiée (© les
+    contributeurs d’OpenStreetMap, 2021),
+-   **route**, le réseau viaire de la région étudiée (© les
+    contributeurs d’OpenStreetMap, 2021),
+-   **rail**, le réseau ferré de la région étudiée (© les contributeurs
+    d’OpenStreetMap, 2021),
+-   **airbnb**, un extrait des locations Airbnb disponibles
+    sur le site www;airbnb.fr en septembre 2024 dans les 12e et 13e
+    arrondissements parisiens (InsideAirbnb, 2024)
+
+Vous produirez une carte de la région étudiée en utilisant toutes les
+couches d’information disponibles.  
+Vous devez exporter la carte dans une figure en PNG ayant une largeur de 800
+pixels.   
+Attention nous ne demandons pas la carte elle-même, uniquement
+le code qui a servi à la produire.</u>
+
+Sur cette carte vous devez faire figurer les limites communales des
+arrondissements donnés, les espaces verts, le réseau viaire, le
+réseau ferré et les positions des locations disponibles sur le site en
+septembre 2024. Vous devrez ajouter à cette carte un habillage complet (flèche
+d’orientation, echelle, titre, sources…).
+
+![Exemple de carte présentant l'ensemble des couches](figs/fig1.png)
+
+### Carte des prix des locations (4 points)
+
+Créer une carte ou chaque location apparait sous la forme d’un point
+coloré en fonction de son prix.  
+Exportez cette carte en PNG avec une largeur de 750 pixels.   
+Attention nous ne demandons pas la carte elle-même, uniquement
+le code qui a servi à la produire.</u>  
+Vous devrez justifier la méthode de discrétisation que vous utilisez.
+
+![Exemple de brouillon de carte des prix](figs/fig2.png)
+
+### Prix de la nuitée dans le voisinage du MK2 Bibliothèque (4 points)
+
+Quel est le prix médian par personne par nuitée dans une zone de 600 mètres 
+autour du MK2 Bibliothèque (coordonnées WGS84 : Y=48.8326, X=2.3752)? 
+
+### Utilisation d’un maillage régulier (4 points)
+
+Créez un maillage régulier de carreaux de 200 mètres de côté sur les
+communes étudiées.  
+Comptez le nombre de transaction dans chacun des carreaux.  
+Calculez le prix médian au mètre carré par carreau.  
+Construire un carte représentant le prix médian par carreau en
+n’affichant que les carreaux ayant plus de 5 locations.  
+Exportez cette carte en PNG avec une largeur de 750 pixels.  
+Attention nous ne demandons pas la carte elle-même, uniquement
+le code qui a servi à la produire.</u>  
+Justifiez la discrétisation utilisée.
+
+![Exemple de brouillon de carte utilisant le maillage régulier](figs/fig3.png)
