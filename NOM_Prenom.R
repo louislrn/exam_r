@@ -35,7 +35,7 @@
 cat(paste0("Le prix médian par personne dans un voisinage de 600
            mètres autour du MK2 Bibliothèque est de ", 
            round(value, 0), 
-           " euros par m²"))
+           " euros."))
 
 
 

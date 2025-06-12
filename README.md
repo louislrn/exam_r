@@ -42,7 +42,7 @@ Ce fichier geopackage contient 5 couches d’information :
 -   **rail**, le réseau ferré de la région étudiée (© les contributeurs
     d’OpenStreetMap, 2021),
 -   **airbnb**, un extrait des locations Airbnb disponibles
-    sur le site www;airbnb.fr en septembre 2024 dans les 12e et 13e
+    sur le site www.airbnb.fr en septembre 2024 dans les 12e et 13e
     arrondissements parisiens (InsideAirbnb, 2024)
 
 Ces données ont été téléchargées et processées en amont sur le fichier *Preparation_des_donnees.md*, à titre indicatif.
@@ -73,9 +73,9 @@ Vous devrez justifier la méthode de discrétisation que vous utilisez.
 
 ![Exemple de brouillon de carte des prix](figs/fig2.png)
 
-### Prix de la nuitée dans le voisinage du MK2 Bibliothèque (4 points)
+### Prix par personne dans le voisinage du MK2 Bibliothèque (4 points)
 
-Quel est le prix médian par personne par nuitée dans une zone de 600 mètres 
+Quel est le **prix médian par personne** dans une zone de 600 mètres 
 autour du MK2 Bibliothèque (**coordonnées WGS84 : Y=48.8326, X=2.3752**)? 
 
 ### Utilisation d’un maillage régulier (4 points)
@@ -83,7 +83,7 @@ autour du MK2 Bibliothèque (**coordonnées WGS84 : Y=48.8326, X=2.3752**)?
 Créez un maillage régulier de carreaux de 200 mètres de côté sur les
 communes étudiées.  
 Comptez le nombre de transaction dans chacun des carreaux.  
-Calculez le prix médian au mètre carré par carreau.  
+Calculez le **prix médian par personne** par carreau.  
 Construire un carte représentant le prix médian par carreau en
 n’affichant que les carreaux ayant plus de 5 locations.  
 Exportez cette carte en PNG avec une largeur de 750 pixels.  
