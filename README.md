@@ -55,7 +55,7 @@ Attention nous ne demandons pas la carte elle-même, uniquement
 le code qui a servi à la produire.</u>
 
 Sur cette carte vous devez faire figurer les limites communales des
-arrondissements donnés, les espaces verts, le réseau viaire, le
+arrondissements et des IRIS donnés, les espaces verts, le réseau viaire, le
 réseau ferré et les positions des locations disponibles sur le site en
 septembre 2024. Vous devrez ajouter à cette carte un habillage complet (flèche
 d’orientation, échelle, titre, sources…).
