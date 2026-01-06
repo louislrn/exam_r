@@ -55,7 +55,7 @@ cat(paste0("Le prix médian par personne dans un voisinage de 600
 
 # Compter le nombre de locations dans chaque carreau
 
-# Calculez le prix médian par carreau
+# Calculez le prix médian par personne par carreau
 
 # Sélectionner les carreaux ayant plus de 5 transactions
 

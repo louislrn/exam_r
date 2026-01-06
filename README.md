@@ -2,8 +2,7 @@
 
 ## Analyse des prix des locations Airbnb dans les 12e et 13e arrondissements parisiens 
 
-*Louis Laurian & Elina Marveaux*
-
+*Antoine Beroud & Louis Laurian*
 
 ### Présentation et préparation de l’espace de travail (4 points)
 
@@ -11,11 +10,10 @@ Vous devez tout d’abord télécharger le projet **exam_r** sur votre
 machine puis le dézipper.  
 ![](figs/download.png)
 
-
 Vous devez ensuite renommer le fichier **NOM_Prenom.R** avec vos propres
 noms et prénoms.  
-C’est ce fichier et uniquement ce fichier</u> que vous devrez nous envoyer
-avant le **31 janvier 2025**.  
+C’est ce fichier et **uniquement ce fichier** que vous devrez nous envoyer
+avant le **31 janvier 2026**.  
 
 Assurez vous bien que le script fonctionne avant de nous envoyer le
 fichier. Pour cela vous pouvez relancer votre session R (ctrl+shift+F10) puis
@@ -73,10 +71,10 @@ Vous devrez justifier la méthode de discrétisation que vous utilisez.
 
 ![Exemple de brouillon de carte des prix](figs/fig2.png)
 
-### Prix par personne dans le voisinage du MK2 Bibliothèque (4 points)
+### Prix par personne dans le voisinage d'un cinéma (4 points)
 
 Quel est le **prix médian par personne** dans une zone de 600 mètres 
-autour du MK2 Bibliothèque (**coordonnées WGS84 : Y=48.8326, X=2.3752**)? 
+autour du MK2 Bibliothèque ? *Indice : utilisez un outil de géocodage*
 
 ### Utilisation d’un maillage régulier (4 points)
 
