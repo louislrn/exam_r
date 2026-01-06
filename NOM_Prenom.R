@@ -1,5 +1,5 @@
 ################################################################################
-# Importer les couches d’information et les cartographier (4 points)
+# Importer les couches d’information et les afficher sur une carte (4 points)
 ################################################################################ 
 
 
@@ -9,15 +9,13 @@
 
 
 ################################################################################
-# Carte des prix par personne (accommodates) (4 points)
+# Carte du nombre de locations par IRIS (4 points)
 ################################################################################ 
 
 
 
 
 
-# Justification de la discrétisation (statistiques, boxplot, histogramme, 
-# beeswarm...)
 
 
 
@@ -27,7 +25,7 @@
 # Prix médian par personne dans le voisinage du MK2 Bibliothèque (4 points)
 ################################################################################ 
 
-
+# La variable accommodates désigne le nombre de visiteurs
 
 
 
@@ -59,7 +57,6 @@ cat(paste0("Le prix médian par personne dans un voisinage de 600
 
 # Sélectionner les carreaux ayant plus de 5 transactions
 
-# Justification de la discrétisation (statistiques, boxplot, histogramme, 
-# beeswarm...)
+# Justification de la discrétisation
 
 

@@ -33,6 +33,8 @@ Ce fichier geopackage contient 5 couches d’information :
 
 -   **arrdts**, les limites communales des 12e et 13e 
     arrondissements parisiens (BD CARTO®, IGN, 2021),
+-   **arrdts**, les limites des IRIS des des 12e et 13e 
+    arrondissements parisiens (BD CARTO®, IGN, 2021),
 -   **parc**, les espaces verts de la région étudiée (© les
     contributeurs d’OpenStreetMap, 2021),
 -   **route**, le réseau viaire de la région étudiée (© les
@@ -60,14 +62,13 @@ d’orientation, échelle, titre, sources…).
 
 ![Exemple de carte présentant l'ensemble des couches](figs/fig1.png)
 
-### Carte des prix des locations (4 points)
+### Carte des locations par IRIS (4 points)
 
-Créez une carte ou chaque location apparait sous la forme d’un point
-coloré en fonction de son prix.  
+Créez une carte ou le nombre de locations Airbnb par IRIS est indiqué par des
+cercles proportionnels.
 Exportez cette carte en PNG avec une largeur de 750 pixels.   
 Attention nous ne demandons pas la carte elle-même, uniquement
 le code qui a servi à la produire.</u>  
-Vous devrez justifier la méthode de discrétisation que vous utilisez.
 
 ![Exemple de brouillon de carte des prix](figs/fig2.png)
 

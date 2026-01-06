@@ -40,8 +40,7 @@ tab_1312 <- tab_1312[tab_1312$price < 1000 ,]
 tab_1312 <- tab_1312[!is.na(tab_1312$price) ,]
 
 tab_1312 <- st_as_sf(tab_1312, coords = c("longitude", "latitude"),
-                     crs = 4326) |>
-  st_transform(crs = 2154)
+                     crs = 4326)
 
 # export
 st_write(obj = tab_1312, dsn = paste0("data/bnb.gpkg"), layer = "airbnb",
